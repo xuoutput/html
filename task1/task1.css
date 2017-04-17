@@ -1,0 +1,30 @@
+
+.wrap{
+	margin: 0 auto;
+
+	overflow: hidden;	
+} 
+.yellow{
+	margin: 1.6%;	
+	background-color: rgb(255,166,0);
+	float:left;		
+	border-radius:10%;
+
+ 	padding: 15% ;							
+}
+
+button{
+	width: 100%;
+	padding: 1rem;
+	margin: 0.5rem 0;
+	font-size: 1.5rem;
+	border: 0;
+	border:1px solid yellow;
+	border-radius: 4px;
+	background-color: #fff;
+	color: orange;
+}
+
+
+
+
