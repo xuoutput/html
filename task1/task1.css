@@ -25,6 +25,10 @@ button{
 	color: orange;
 }
 
-
+button:hover{
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}
 
 
