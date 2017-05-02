@@ -1,0 +1,147 @@
+header {
+	background-color: #29bde0;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	padding: .35rem 0 .18rem 0;
+
+	box-sizing: border-box;
+	
+	border-bottom: 1px solid #74d4eb;
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	.back {
+		width: .24rem;
+		margin-left: .24rem;
+	}
+	p{
+		font-size: .34rem;
+		color: #fff;
+
+	}
+	.close {
+		width: .36rem;
+		margin-right: .17rem;
+	}
+}
+
+main {
+	background-color: #29bde0;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;	
+	padding: .84rem .88rem;
+
+	box-sizing: border-box;	
+	div {
+		width: 100%;		//不是76%，因为有了左右padding
+		border: 6px solid #fff;
+		background-color: #ffedc5;
+
+		position: relative;
+
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		
+		.num {
+			width: .74rem;
+			height: .74rem;
+			border: 3px solid #ffedc5;
+			border-radius: 50%;
+			background-color: #fff;
+
+			position: absolute;
+			top: -.40rem;
+			left: 41%;
+			
+			z-index: 1;		//防止上面div背景色遮住
+
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+
+			p {
+				font-size: .4rem;
+				color: #f56b81;
+			}
+		}
+
+		#bcg1 {
+			height: 6.5rem;
+
+			/*display: none;*/
+			img {
+				width: 66%;
+				margin: 1.8rem 0 1.68rem 0;
+
+			}			
+		}
+		
+		#bcg2 {
+			display: none;
+
+			height: 6.5rem;		
+/*			display: flex;			放js中
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;*/
+			/*display: none;	*//*这里不能放在下面，不然flex不能加载 但放上面又不能写flex，把flex放js中巴*/
+			img {
+				width: 46%;
+				margin: .64rem 0 .3rem 0;
+			}
+			.p1 {
+				font-size: .4rem;
+				color: #29bde0;
+			}
+			.p2 {
+				font-size: .4rem;
+				color: #f56b81;
+				margin: .21rem 0 .35rem 0;
+			}
+			.p3 {
+				display: block;
+				font-size: .26rem;
+				color: #fca000;
+				/*padding-top: .35rem;*/
+				padding: .35rem .32rem 0 .32rem;
+				border-top: 1px solid #fff;
+			}
+		}
+	}
+}
+
+
+footer{
+	background-color: #29bde0;
+	min-width: 320px;
+	max-width: 640px;	
+	margin: 0 auto;	
+	padding: .39rem 0 .59rem 0;
+	box-sizing: border-box;	
+
+	font-size: 0;		
+	button{
+		border: 0;
+		background-color: #fab344;
+		padding: .2rem 0 ;
+		width: 76%;
+		font-size: .48rem;
+		color: #fff;
+		cursor: pointer;
+		
+		margin: 0 auto;
+		
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+}

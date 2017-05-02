@@ -19,10 +19,10 @@
 				<p>玩<br />家<br />配<br />比</p>
 			</div>
 			<div class="main-top-right">
-				<div class="main-top-right-set">
+				<div class="main-top-right-set" id="set_content">
 					
 				</div>
-				<button>点击设置<img src="images/pen.png"></button>
+				<button id="set" onclick="setNum()">点击设置<img src="images/pen.png"></button>
 			</div>
 		</div>
 		<div class="main-middle">
@@ -30,21 +30,23 @@
 			<p>幽灵</p>
 		</div>
 		<div class="main-bottom">
-			<p>玩家人数<input type="text" name=""> 人</p>
+			<p>玩家人数<input type="text" name="" value="4" id="player_num"> 人</p>
 			<div class="main-bottom-slide">
 				<button class="">
-					<img src="images/sub.png">
+					<img src="images/sub.png" id="img_sub">
 				</button>				
-				<input type="range" name="" min="4" max="18" value="4-18">
+				<input type="range" name="" min="4" max="18" step="1" value="4" id="slider_num">
 				<button>
-					<img src="images/add.png">
+					<img src="images/add.png" id="img_add">
 				</button>				
 			</div>
 		</div>
 	</main>
 
 	<footer>
-		<button>去发牌</button>
+		<button id="btn_start">去发牌</button>
 	</footer>
+<script type="text/javascript" src="task2-1.js"></script>
+
 </body>
 </html>
