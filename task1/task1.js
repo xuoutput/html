@@ -48,10 +48,15 @@ function changeColor() {
 
 
 var time;
-function star() { 
+function start() { 
+
     clearInterval(time);//主要是再次点击时取消循环，防止上一个循环没结束，又开始循环导致闪烁速度越来越快
     time=setInterval("changeColor()",1000);
-
+    //不通过hover改变颜色而是用js
+    document.getElementById("btn_start").style.backgroundColor="#ffa600";
+    document.getElementById("btn_start").style.color="#ffffff";
+    document.getElementById("btn_end").style.backgroundColor="#ffffff";
+    document.getElementById("btn_end").style.color="#ffa600";
 
 }
 
@@ -59,6 +64,10 @@ function end() {
 	clearInterval(time);
 	resetColor();
 
+    document.getElementById("btn_end").style.backgroundColor="#ffa600";
+    document.getElementById("btn_end").style.color="#ffffff";
+    document.getElementById("btn_start").style.backgroundColor="#ffffff";
+    document.getElementById("btn_start").style.color="#ffa600";
 }
 
 
