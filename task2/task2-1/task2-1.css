@@ -1,8 +1,10 @@
-header {
-  background-color: #29bde0;
+body {
   min-width: 320px;
   max-width: 640px;
   margin: 0 auto;
+}
+header {
+  background-color: #29bde0;
   padding: .35rem 0 .1rem 0;
   box-sizing: border-box;
   display: flex;
@@ -24,9 +26,6 @@ header .help {
 }
 main {
   background-color: #efefef;
-  min-width: 320px;
-  max-width: 640px;
-  margin: 0 auto;
   padding: .2rem .17rem 0 .17rem;
   box-sizing: border-box;
 }
@@ -117,6 +116,11 @@ main .main-bottom p input {
   color: #fab344;
   text-align: center;
 }
+main .main-bottom p #tip {
+  font-size: .2rem;
+  color: red;
+  margin-left: .1rem;
+}
 main .main-bottom .main-bottom-slide {
   font-size: 0;
   display: block;
@@ -164,9 +168,6 @@ main .main-bottom .main-bottom-slide input[type=range]:focus {
 }
 footer {
   background-color: #efefef;
-  min-width: 320px;
-  max-width: 640px;
-  margin: 0 auto;
   padding: .14rem .17rem .23rem .17rem;
   box-sizing: border-box;
   font-size: 0;
