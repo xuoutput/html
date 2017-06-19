@@ -1,0 +1,95 @@
+body {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+header {
+  background-color: #29bde0;
+  /*	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;*/
+  padding: .35rem 0 .18rem 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #74d4eb;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .back {
+  width: .24rem;
+  margin-left: .24rem;
+}
+header p {
+  font-size: .34rem;
+  color: #fff;
+}
+header .close {
+  width: .36rem;
+  margin-right: .17rem;
+}
+main {
+  background-color: #29bde0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: ;
+}
+main .box {
+  float: left;
+  width: 21.7%;
+  margin: 5% 5% 4.5% 5%;
+  border: 5px solid #fff;
+  background-image: url(images/ptt.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+main .box .person {
+  font-size: .3rem;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 28% 0;
+  opacity: 0;
+}
+main .box .person:hover {
+  opacity: 1;
+  background-color: #f5c97b;
+}
+main .box .num {
+  font-size: .23rem;
+  color: #fff;
+  background-color: rgba(62, 166, 199, 0.7);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: #29bde0;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: .39rem 0 .59rem 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+footer button {
+  border: 0;
+  background-color: #fab344;
+  padding: .2rem 0 ;
+  width: 76%;
+  font-size: .48rem;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}

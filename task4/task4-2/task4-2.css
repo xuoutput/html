@@ -1,0 +1,186 @@
+body {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+header {
+  background-color: #29bde0;
+  padding: .35rem 0 .1rem 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header #back {
+  width: .25rem;
+  margin-left: .2rem;
+}
+header p {
+  font-size: .34rem;
+  color: #fff;
+}
+header #close {
+  width: .36rem;
+  margin-right: .18rem;
+}
+main {
+  background-color: #f0f0f0;
+  padding: .24rem .08rem .09rem .08rem;
+  box-sizing: border-box;
+}
+main .add-dayinfo .dayt {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  padding: .29rem 0;
+  margin: .1rem 0 0 0;
+}
+main .add-dayinfo .dayt p {
+  font-size: .3rem;
+  color: #29bde0;
+  text-align: center;
+}
+main .add-dayinfo .dayt img {
+  width: .3rem;
+  margin-right: .18rem;
+}
+main .add-dayinfo .p-info1 {
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  padding: .29rem 0;
+  margin: .1rem 0 0 0;
+}
+main .add-dayinfo .p-info1 .p-night1 {
+  font-size: .26rem;
+  color: #a6a6a6;
+  text-align: center;
+}
+main .add-dayinfo .p-info1 .p-daytime1 {
+  font-size: .26rem;
+  color: #a6a6a6;
+  text-align: center;
+}
+main .main-title .day {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  padding: .29rem 0;
+  margin: .1rem 0 0 0;
+}
+main .main-title .day p {
+  font-size: .3rem;
+  color: #29bde0;
+  text-align: center;
+}
+main .main-title .day img {
+  width: .3rem;
+  margin-right: .18rem;
+}
+main .main-title .p-info {
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  border-top: 0;
+  padding: .29rem 0;
+  /*margin: .1rem 0 0 0;*/
+}
+main .main-title .p-info .p-night {
+  font-size: .26rem;
+  color: #a6a6a6;
+  text-align: center;
+}
+main .main-content {
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  border-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+main .main-content .main-content-right {
+  width: 91%;
+  border-left: 1px solid #c9c9c9;
+}
+main .main-content .main-content-right .night {
+  width: 100%;
+  margin: .4rem 0;
+  position: relative;
+}
+main .main-content .main-content-right .night div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+main .main-content .main-content-right .night div img {
+  width: .6rem;
+  position: absolute;
+  top: .2rem;
+  left: -0.3rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+main .main-content .main-content-right .night div .third3 {
+  display: inline-block;
+  width: 5%;
+  border-top: 17px solid #fff;
+  border-right: 22px solid #24a7c6;
+  border-bottom: 17px solid #fff;
+}
+main .main-content .main-content-right .night div p {
+  display: inline-block;
+  width: 80%;
+  font-size: .3rem;
+  color: #fff;
+  padding: .25rem 0;
+  margin: .1rem 10% .1rem 0;
+  text-align: center;
+  background-color: #24a7c6;
+}
+main .main-content .main-content-right .night div p:hover {
+  cursor: pointer;
+}
+main .main-content .main-content-right .daytime {
+  width: 100%;
+  margin: .4rem 0;
+  position: relative;
+}
+main .main-content .main-content-right .daytime div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+main .main-content .main-content-right .daytime div img {
+  width: .6rem;
+  position: absolute;
+  top: .2rem;
+  left: -0.3rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+main .main-content .main-content-right .daytime div .third3 {
+  display: inline-block;
+  width: 5%;
+  border-top: 17px solid #fff;
+  border-right: 22px solid #24a7c6;
+  border-bottom: 17px solid #fff;
+}
+main .main-content .main-content-right .daytime div p {
+  display: inline-block;
+  width: 80%;
+  font-size: .3rem;
+  color: #fff;
+  padding: .25rem 0;
+  margin: .1rem 10% .1rem 0;
+  text-align: center;
+  background-color: #24a7c6;
+}
+main .main-content .main-content-right .daytime div p:hover {
+  cursor: pointer;
+}
