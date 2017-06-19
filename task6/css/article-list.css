@@ -1,0 +1,119 @@
+/*主要内容部分-列表页*/
+.word-spacing-25 {
+    word-spacing: 25px;
+}
+
+.pd-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.pd-bottom-15 {
+    padding-bottom: 15px;
+}
+
+
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+/*.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}*/
+
+
+
+
+.add-table-border {
+    border: 1px solid #eeeeee;
+}
+
+/*Bootstrap中的table下面的th和td居中*/
+.table th,
+.table td {
+    text-align: center;
+}
+
+/*操作那块设置间隔*/
+td {
+    vertical-align: middle !important;
+    max-width: 180px;
+    word-wrap: break-word;
+    /*下面这块会和日历有冲突*/
+    /*word-break: break-all;*/
+}
+
+
+
+
+
+/*details*/
+/*必填项前面的红星*/
+.stars {
+    color: #ff0000;
+}
+.starShow {
+    visibility: hidden;
+}
+
+
+/*.up-de span{
+    padding: 0 2px;
+    color: #ffffff;
+}*/
+
+/*.details-button {
+
+    padding-left: 0;
+}*/
+
+
+
+
+/*分页中的格式*/
+.page-list { font-size: 16px;
+    float: right
+}
+.page-list .pagination {
+    float:left;
+}
+
+.page-list .pagination span {
+    cursor: pointer;
+    margin: 0 5px
+}
+.page-list .pagination .separate span{
+    cursor: default;
+    border-top:none;
+    border-bottom:none;
+}
+.page-list .pagination .separate span:hover {
+    background: none;
+}
+.page-list .page-total {
+    float:left;
+    margin: 25px 15px
+}
+.page-list .page-total input {
+    height: 26px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 40px;}
+.page-list .page-total a {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    color: #337ab7;
+    background: #ffffff;
+    cursor: pointer;
+}
+.no-items {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 0.6rem);
+    margin: 0.1rem 0.5rem 0.1rem 0.1rem;
+    padding: 0.4rem 0;
+    text-align: center;
+}

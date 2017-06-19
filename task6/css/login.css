@@ -1,0 +1,195 @@
+/*背景图片*/
+.bg-img {
+    background: url("../images/login-bg-orange.jpg") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    min-height: 426px;
+}
+
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 46px 0;
+    text-align: center;
+}
+.login-circle-img {
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    margin-top: -38px;
+    box-shadow: 0 -3px 7px rgba(160, 160, 160, 0.5);
+}
+.login-panel {
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+/*账号框选中前*/
+.login-user-icon {
+    background: url("../images/loginuser.png") 0 0;
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    top: 96px;
+    left: 46px;
+}
+/*账号框选中后*/
+.login-user:focus + .login-user-icon {
+    background: url("../images/loginuser-active.png") 0 0;
+}
+/*密码框选中前*/
+.login-pwd-icon {
+    background: url("../images/loginpwd.png") 0 0;
+    width: 23px;
+    height: 26px;
+    position: absolute;
+    /*top: 156px;*/
+    top: 176px;
+    left: 46px;
+}
+/*密码框选中后*/
+.login-pwd:focus + .login-pwd-icon {
+    background: url("../images/loginpwd-active.png") 0 0;
+}
+
+/*账号密码框左偏移*/
+.pd-left-50 {
+    padding-left: 50px;
+}
+
+.login-user, .login-pwd {
+    color: #fd9f2a;
+}
+
+/*表单验证*/
+.checkbox {
+    margin: 0.05rem 0;
+    padding-left: .7rem;
+    height: .15rem;    
+}
+.checkUsername,
+.checkPassword {
+/*    margin: 0.05rem 0;
+    padding-left: .7rem;
+    height: .15rem;*/
+    font-size: 14px;
+    text-align: left;
+    color: #ff0000;
+}
+
+
+/*登录按钮*/
+
+.login-btn {
+    margin-top: 32px;
+}
+
+.btn-submit {
+    color: #fff;
+    background-color: #fd9f2a;
+    border-color: #fd9f2a;
+}
+
+.btn-submit:hover {
+    color: #fff;
+    background-color: #e88e29;
+    border-color: #e88e29;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*登录页css部分*/
+/*
+div.wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #232a3a;
+}
+div.col-md-4 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    min-height: 3rem;
+    text-align: center;
+    background: #ffffff;
+}
+div.logo {
+    height: .4rem;
+}
+.img-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 -3px 8px 0 #000000;
+}
+div.content {
+    margin-top: .3rem;
+}
+.icon1,
+.icon2 {
+    position: absolute;
+    left: .3rem;
+    top: 40%;
+    transform: translateY(-50%);
+    padding-right: 0.05rem;
+    height: .2rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #7c7c7c;
+}
+.user,
+.password {
+    position: relative;
+    margin: .15rem auto .3rem;
+    height: .45rem;
+}
+p.tips1,
+p.tips2 {
+    margin: 0.05rem 0;
+    padding-left: .7rem;
+    height: .15rem;
+    font-size: 14px;
+    text-align: left;
+    color: #ff0000;
+}
+#user,
+#password {
+    height: .45rem;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    font-size: 18px;
+    background: #ffffff;
+    padding-left: .4rem;
+    color: #fd9f2a;
+}
+#log-in {
+    margin-top: 0.05rem;
+    width: 90%;
+    height: .35rem;
+    background: #518ac2;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+#log-in[disabled] {
+    background: #cccccc;
+}
