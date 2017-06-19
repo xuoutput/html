@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=divice-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+	<title>task5ajax登录/退出 </title>
+	<link rel="stylesheet" type="text/css" href="init.css">
+	<link rel="stylesheet" type="text/css" href="task5.css">
+</head>
+<body>
+	<main>
+		<div>
+			<p>和我水站后台登录</p>
+
+			<form>
+				<div class="username">
+					<img src="images/username.png">
+					<input type="text" name="" placeholder="用户名" class="username_text" value="">
+				</div>
+				<p id="username_check"></p>
+				<div class="password">
+					<img src="images/password.png">
+					<input type="password" name="" placeholder="密码" class="password_text" value="">
+				</div>
+				<p id="password_check"></p>
+			</form>
+			<p id="btn_check"></p>
+			<button type="button" id="btn_login" >登录</button>
+		</div>
+	</main>
+	
+	<!-- 先JQ在ajax -->
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="task5.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+main {
+  background: url(images/bcg.png) no-repeat;
+  background-size: auto center;
+  width: 100vw;
+  height: 100vh;
+  /*padding: 10% 0;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main div {
+  width: 44%;
+  background-color: #d0d3d8;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+main div p {
+  font-size: .3rem;
+  color: #03a9f4;
+  padding: .3rem;
+  text-align: center;
+}
+main div form {
+  width: 81%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+main div form .username {
+  width: 100%;
+  background-color: #fff;
+  padding: .22rem 0;
+  /*margin-bottom: .2rem;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+main div form .username img {
+  width: .18rem;
+  margin-left: .16rem;
+  padding-right: .17rem;
+  border-right: 1px solid #e8e8e8;
+}
+main div form .username input {
+  width: 100%;
+  font-size: .14rem
+					color: #999;
+  border: 0;
+  background: transparent;
+  outline: none;
+  margin-left: .2rem;
+}
+main div form p {
+  width: 100%;
+  text-align: left;
+  font-size: .18rem;
+  color: red;
+  height: .2rem;
+  line-height: .2rem;
+  /*text-align: center;*/
+  padding: .1rem;
+}
+main div form .password {
+  width: 100%;
+  background-color: #fff;
+  padding: .22rem 0;
+  /*margin-bottom: .2rem;*/
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+main div form .password img {
+  width: .18rem;
+  margin-left: .16rem;
+  padding-right: .17rem;
+  border-right: 1px solid #e8e8e8;
+}
+main div form .password input {
+  font-size: .14rem
+					color: #999;
+  border: 0;
+  background: transparent;
+  outline: none;
+  margin-left: .2rem;
+}
+main div #btn_check {
+  width: 81%;
+  text-align: left;
+  font-size: .18rem;
+  color: red;
+  height: .2rem;
+  line-height: .2rem;
+  /*text-align: center;*/
+  padding: .1rem;
+}
+main div button {
+  border: 0;
+  width: 81%;
+  background-color: #03a9f4;
+  padding: .22rem 0;
+  /*margin: .3rem 0;*/
+  margin-bottom: .3rem;
+  font-size: .18rem;
+  color: #fff;
+  border-radius: 4px;
+}
+main div button:hover {
+  cursor: pointer;
+}

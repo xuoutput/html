@@ -1,0 +1,135 @@
+
+
+main {
+	background: url(images/bcg.png) no-repeat;
+	background-size: auto center;
+	width: 100vw;height: 100vh;
+	/*padding: 10% 0;*/
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	div {
+		width: 44%;
+		background-color: #d0d3d8;
+
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: center;		
+		p {
+			font-size: .3rem;
+			color: #03a9f4;
+			padding: .3rem;
+			text-align: center;
+		}
+		form {
+			width: 81%;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+			.username {
+				width: 100%;
+				background-color: #fff;
+				padding: .22rem 0;
+				/*margin-bottom: .2rem;*/
+
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-items: center;
+
+				img {
+					width: .18rem;
+					margin-left: .16rem;
+					padding-right: .17rem;
+					border-right: 1px solid #e8e8e8;
+				}
+
+				input {
+					width: 100%;
+					font-size: .14rem
+					color: #999;	
+					//这是去掉外边框				
+					border: 0;
+					background: transparent;
+					//这是去掉点击后的边框
+					outline: none;
+					margin-left: .2rem;
+
+				}
+			}
+			p {
+				width: 100%;
+				text-align: left;
+				font-size: .18rem;
+				color: red;
+				height: .2rem;
+				line-height: .2rem;
+				/*text-align: center;*/
+				padding: .1rem;
+				
+			}
+			.password {
+				width: 100%;
+				background-color: #fff;
+				padding: .22rem 0;
+				/*margin-bottom: .2rem;*/
+
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-start;
+				align-items: center;
+
+				img {
+					width: .18rem;
+					margin-left: .16rem;
+					padding-right: .17rem;
+					border-right: 1px solid #e8e8e8;
+				}
+
+				input {
+					font-size: .14rem
+					color: #999;					
+					//这是去掉外边框				
+					border: 0;
+					background: transparent;
+					//这是去掉点击后的边框
+					outline: none;
+					margin-left: .2rem;
+				}				
+			}
+		}
+		#btn_check {
+			width: 81%;
+			text-align: left;
+			font-size: .18rem;
+			color: red;
+			height: .2rem;
+			line-height: .2rem;
+			/*text-align: center;*/
+			padding: .1rem;
+			
+		}
+
+		button {
+			border: 0;
+			width: 81%;
+			background-color: #03a9f4;
+			padding: .22rem 0;
+			/*margin: .3rem 0;*/
+			margin-bottom: .3rem;
+			font-size: .18rem;
+			color: #fff;
+			border-radius: 4px;
+
+		}
+		button:hover {
+			cursor: pointer;
+		}
+	}
+
+}
