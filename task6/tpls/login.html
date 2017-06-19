@@ -1,0 +1,94 @@
+<!-- <div class="wrapper">
+    <div class="contain">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8">
+                <div class="logo">
+                    <img class="img-circle" src="images/login.png" alt="" width="70" height="70">
+                </div>
+                <div class="content" ng-controller="loginCtrl">
+                    <form name="userform">
+                        <div class="user">
+                            <span class="icon1 iconfont">&#xe601;</span>
+                            <input id="user" type="text" name="user" placeholder="用户名" autocomplete="off" ng-model="username"
+                            ng-minlength="4" maxlength="16" ng-pattern="/^[0-9a-zA-Z_]*$/" required>
+                            <p class="tips1" ng-messages="userform.user.$error" ng-if="userform.user.$touched">
+                                <span ng-message="pattern">只能是数字、字母和下划线</span>
+                                <span ng-message="minlength">用户名最小长度4位</span>
+                                <span ng-message="required">必须要填用户名</span>
+                            </p>
+                        </div>
+                        <div class="password">
+                            <span class="icon2 iconfont">&#xe6ae;</span>
+                            <input id="password" type="password" name="password" placeholder="密码" ng-model="userpwd"
+                                   ng-minlength="6" maxlength="16" required>
+                            <p class="tips2" ng-messages="userform.password.$error" ng-if="userform.password.$touched">
+                                <span ng-message="minlength">密码最小长度6位</span>
+                                <span ng-message="required">密码不能为空</span>
+                            </p>
+                        </div>
+                        <div class="log-in" >
+                            <input id="log-in" type="button" value="登录" ng-click="login()" ng-disabled="userform.user.$invalid||userform.password.$invalid">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+<div class="bg-img " ng-controller="loginCtrl">
+    <div class=" container login-container" >
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class=" panel panel-default">
+                    <div>
+                        <img src="images/login-logo.png" class="login-circle-img">
+                    </div>
+                    <div class="panel-body login-panel">
+                        <form role="form" name="userform">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control input-lg pd-left-50 login-user " placeholder="用户名" name="username" type="text" autofocus="" ng-model="username" ng-minlength="4" maxlength="16" ng-pattern="/^[0-9a-zA-Z_]*$/" required>
+                                    <div class="login-user-icon"></div>
+
+                                    <div class="checkbox">
+                                        <p class="checkUsername" ng-messages="userform.username.$error" ng-if="userform.username.$touched || userform.username.$dirty && userform.username.$invalid">
+                                            <span ng-message="pattern">只能是数字、字母和下划线</span>
+                                            <span ng-message="minlength">用户名最小长度4位</span>
+                                            <span ng-message="required">必须要填用户名</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    <input class="form-control input-lg pd-left-50 login-pwd " placeholder="密码" name="password" type="password" ng-model="userpwd" ng-minlength="6" maxlength="16" required>
+                                    <div class="login-pwd-icon "></div>
+                
+                                    <div class="checkbox">
+                                        <p class="checkPassword" ng-messages="userform.password.$error" ng-if="userform.password.$touched || userform.password.$dirty && userform.password.$invalid">
+                                            <span ng-message="minlength">密码最小长度6位</span>
+                                            <span ng-message="required">密码不能为空</span>
+                                        </p>
+                                    </div>
+                                </div>
+                               <!--  <div class="checkbox">
+                                    <p class="text-danger ng-binding"></p>
+                                </div> -->
+
+
+                                <button class="btn btn-lg btn-submit btn-block login-btn" ng-click="login()">登录
+                                </button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
